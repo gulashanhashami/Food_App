@@ -12,7 +12,7 @@ async function getData(url){
     }
 }
 function appendData(data, location){
-    // location.innerHTML="";
+    location.innerHTML="";
     data.forEach((elem)=>{
         let div=document.createElement("div");
         div.setAttribute("id","divg");
